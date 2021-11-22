@@ -11,9 +11,6 @@ import java.util.List;
  */
 public class Model extends DefaultTableModel {
 
-    private List <Object> listOfContacts = new ArrayList<>();
-    public Object[][] arrayOfContacts = new Object[][]{};
-    private int counter = 0;
 
     public Model() {
         super(Constants.TABLE_HEADER,0);
